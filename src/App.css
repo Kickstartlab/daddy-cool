@@ -1,0 +1,19 @@
+.rotate {
+  animation: rotation 8s infinite linear;
+  filter: drop-shadow(8px 8px 6px rgb(146, 179, 221));
+}
+
+.line {
+  background: #fff;
+  animation: line 6s 5s infinite linear;
+}
+
+@keyframes line {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
