@@ -31,18 +31,18 @@ export default function Footer() {
                   Don’t hesitate to subscribe to latest news about ICo markets as well as crucial financial knowledge to become successful investors globally
                 </p>
 
-                {/* <p className='pt-2'>
-                  Get in touch: <a href='mailto:decentraprotocolteam@gmail.com' className='text-purple-100'>decentraprotocolteam@gmail.com</a>
-                </p> */}
+                <p className='pt-2'>
+                  Get in touch: <a href='mailto:info@daddycooltoken.com' className='text-blue-100 hover:underline'>info@daddycooltoken.com</a>
+                </p>
               </div>
 
               <div className='flex gap-6 items-center lg:mt-0 mt-6'>
 
-                <a href='/'>
+                <a href='https://twitter.com/daddycooltoken?s=21'>
                   <img src={twitter} alt="Twitter" className='' />
                 </a>
 
-                <a href='/'>
+                <a href='https://t.me/daddycooltoken'>
                   <img src={telegram} alt="Facebook" className='' />
                 </a>
 

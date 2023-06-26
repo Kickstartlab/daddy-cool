@@ -47,7 +47,10 @@ export default function Home() {
                         <div data-aos="fade-left" className="lg:w-1/2 w-full">
 
                             <h2 className='md:text-5xl text-3xl font-bold text-blue-100 tracking-wider font-junkdog'>
-                                ABOUT US
+                                Dont JUST be A Daddy
+                            </h2>
+                            <h2 className='md:text-5xl text-3xl font-bold text-blue-100 tracking-wider font-junkdog mt-3'>
+                                BE A daddy cool!!
                             </h2>
 
                             <p className='pt-6 pb-4 font-semibold'>
