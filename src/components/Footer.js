@@ -14,25 +14,17 @@ export default function Footer() {
         <div className='lg:flex items-center justify-between'>
           <div data-aos="fade-right" className='lg:w-7/12'>
             <div className="space-y-8">
-              <h2 className='md:text-4xl text-2xl font-opensans font-bold text-blue-100 text-left'>
-                Don't miss out, Stay updated
+              <h2 className='md:text-4xl text-2xl font-bold text-blue-100 text-left font-junkdog tracking-wider'>
+                Disclaimer:
               </h2>
 
-              <div className="py-1 lg:pl-6 pr-1 w-full lg:bg-yellow-100 lg:space-y-0 flex items-center justify-between rounded-full border-2 border-blue-100">
-                <input type="email" placeholder="Enter your email" id="email" required="" className="lg:p-0 py-2 px-3 lg:rounded-none rounded-full bg-yellow-100 focus:ring-0 focus:outline-none placeholder-blue-100" />
-
-                <button className='text-white-100 uppercase font-semibold lg:px-12 px-2 lg:py-3 py-2 bg-blue-100 rounded-full'>
-                  Subcribe
-                </button>
-              </div>
-
-              <div className=''>
+              <div className='font-semibold lg:leading-loose'>
                 <p>
-                  Don’t hesitate to subscribe to latest news about ICo markets as well as crucial financial knowledge to become successful investors globally
+                  Daddy Cool Token is a decentralized community-driven project. Please conduct your own research and due diligence before investing in any cryptocurrency. Cryptocurrencies are subject to market risks, and their value may fluctuate. Daddy Cool Token is not affiliated with Johnny Bravo or its creators.
                 </p>
 
                 <p className='pt-2'>
-                  Get in touch: <a href='mailto:info@daddycooltoken.com' className='text-blue-100 hover:underline'>info@daddycooltoken.com</a>
+                  <a href='mailto:info@daddycooltoken.com' className='text-blue-100 hover:underline'>info@daddycooltoken.com</a>
                 </p>
               </div>
 

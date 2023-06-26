@@ -54,7 +54,7 @@ export default function Home() {
                             </h2>
 
                             <p className='pt-6 pb-4 font-semibold'>
-                                Imagine a crypto memecoin project inspired by Johnny Bravo's "daddy cool" persona. This theme-based venture would embrace the essence of his iconic character, combining elements of charisma, confidence, and style with the exciting world of cryptocurrency.
+                                Imagine a crypto memecoin project inspired by Johnny Bravo's "<strong>daddy cool</strong>" persona. This theme-based venture would embrace the essence of his iconic character, combining elements of charisma, confidence, and style with the exciting world of cryptocurrency.
                             </p>
 
                             <p className='py-5 lg:leading-loose font-semibold'>
@@ -122,18 +122,26 @@ export default function Home() {
 
                         <div data-aos="fade-left" className="lg:w-1/2 w-full">
 
-                            <h2 className='md:text-5xl text-3xl font-bold text-blue-100 tracking-wider font-junkdog'>
+                            <h2 className='md:text-5xl text-3xl font-bold text-blue-100 tracking-wider font-junkdog mb-3'>
                                 Community
                             </h2>
 
-                            <p className='pt-8 pb-4 font-semibold'>
-                                Korem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.
-                            </p>
-
                             <p className='py-5 lg:leading-loose font-semibold'>
-                                Korem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Korem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Korem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.Korem ipsum dolor sit.
+                                At Daddy Cool Token, we believe in creating a vibrant and engaging community that appreciates humor, nostalgia, and the thrill of being part of something unique. By leveraging Johnny Bravo's appeal, we've crafted a memecoin project that captures the essence of his larger-than-life personality. Prepare to embark on a thrilling journey where laughter, excitement, and innovation collide.Join us on this incredible journey and become part of the Daddy Cool community. As a member, you'll have the power to shape the future of the project, participate in engaging events and competitions, and connect with like-minded individuals who appreciate the fusion of cryptocurrencies and retro charm
                             </p>
 
+                            <div className='flex items-center gap-x-8'>
+                                <a href="/">
+                                    <button className="border-2 border-blue-100 bg-blue-100 hover:bg-yellow-100 hover:text-black-100 rounded-lg py-2 lg:px-6 px-4 mt-5 font-semibold text-white-100">
+                                        Join Us
+                                    </button>
+                                </a>
+                                <a href="/">
+                                    <button className="border-2 border-blue-100 bg-yellow-100 hover:bg-blue-100 text-black-100 hover:text-white-100 rounded-lg py-2 lg:px-6 px-4 mt-5 font-semibold">
+                                        Chart
+                                    </button>
+                                </a>
+                            </div>
                         </div>
 
                         <div data-aos="zoom-in" className=" md:mt-0 mt-12">
@@ -154,7 +162,7 @@ export default function Home() {
                     Road map
                 </h3>
 
-                <div className="lg:mt-12 mt-6 rounded-2xl bg-blue-200 lg:p-12 p-6">
+                <div className="lg:mt-20 mt-6">
 
                     <div className="h-0.5 w-full bg-white-50 opacity-30">
 
@@ -184,24 +192,24 @@ export default function Home() {
                                 data-aos="flip-right"
                                 className="border-4 border-blue-100 text-blue-100 p-5 lg:w-72"
                             >
-                                <h5 className="text-2xl py-3 font-bold font-junkdog tracking-widest">Q1 2021</h5>
+                                <h5 className="text-2xl py-3 font-bold font-junkdog tracking-widest">Q1 2023</h5>
 
                                 <div className="space-y-3">
                                     <div className='flex items-center gap-x-2'>
                                         <img src={list} alt='list'></img>
-                                        <p>Release website and logo</p>
+                                        <p>Launch Daddy Cool Token</p>
                                     </div>
                                     <div className='flex items-center gap-x-2'>
                                         <img src={list} alt='list'></img>
-                                        <p>Grow community</p>
+                                        <p>Build and engage the community</p>
                                     </div>
                                     <div className='flex items-center gap-x-2'>
                                         <img src={list} alt='list'></img>
-                                        <p>Launch the project</p>
+                                        <p>Execute marketing campaigns</p>
                                     </div>
                                     <div className='flex items-center gap-x-2'>
                                         <img src={list} alt='list'></img>
-                                        <p>Social media setup</p>
+                                        <p>Secure exchange listings</p>
                                     </div>
                                 </div>
                             </div>
@@ -224,24 +232,24 @@ export default function Home() {
                                 data-aos="flip-right"
                                 className="border-4 border-blue-100 text-blue-100 p-5 lg:w-72"
                             >
-                                <h5 className="text-2xl py-3 font-bold font-junkdog tracking-widest">Q2 2021</h5>
+                                <h5 className="text-2xl py-3 font-bold font-junkdog tracking-widest">Q2 2023</h5>
 
                                 <div className="space-y-3">
                                     <div className='flex items-center gap-x-2'>
                                         <img src={list} alt='list'></img>
-                                        <p>Release website and logo</p>
+                                        <p>Form strategic partnerships</p>
                                     </div>
                                     <div className='flex items-center gap-x-2'>
                                         <img src={list} alt='list'></img>
-                                        <p>Grow community</p>
+                                        <p>Expand the community</p>
                                     </div>
                                     <div className='flex items-center gap-x-2'>
                                         <img src={list} alt='list'></img>
-                                        <p>Launch the project</p>
+                                        <p>Improve website and whitepaper</p>
                                     </div>
                                     <div className='flex items-center gap-x-2'>
                                         <img src={list} alt='list'></img>
-                                        <p>Social media setup</p>
+                                        <p>Get listed on CoinGecko and CoinMarketCap</p>
                                     </div>
                                 </div>
                             </div>
@@ -264,24 +272,24 @@ export default function Home() {
                                 data-aos="flip-right"
                                 className="border-4 border-blue-100 text-blue-100 p-5 lg:w-72"
                             >
-                                <h5 className="text-2xl py-3 font-bold font-junkdog tracking-widest">Q3 2021</h5>
+                                <h5 className="text-2xl py-3 font-bold font-junkdog tracking-widest">Q3 2023</h5>
 
                                 <div className="space-y-3">
                                     <div className='flex items-center gap-x-2'>
                                         <img src={list} alt='list'></img>
-                                        <p>Release website and logo</p>
+                                        <p>Develop utility features</p>
                                     </div>
                                     <div className='flex items-center gap-x-2'>
                                         <img src={list} alt='list'></img>
-                                        <p>Grow community</p>
+                                        <p>Grow the team</p>
                                     </div>
                                     <div className='flex items-center gap-x-2'>
                                         <img src={list} alt='list'></img>
-                                        <p>Launch the project</p>
+                                        <p>Enhance social media presence</p>
                                     </div>
                                     <div className='flex items-center gap-x-2'>
                                         <img src={list} alt='list'></img>
-                                        <p>Social media setup</p>
+                                        <p>Explore NFT integration</p>
                                     </div>
                                 </div>
                             </div>
@@ -304,30 +312,34 @@ export default function Home() {
                                 data-aos="flip-right"
                                 className="border-4 border-blue-100 text-blue-100 p-5 lg:w-72"
                             >
-                                <h5 className="text-2xl py-3 font-bold font-junkdog tracking-widest">Q4 2021</h5>
+                                <h5 className="text-2xl py-3 font-bold font-junkdog tracking-widest">Q4 2023</h5>
 
                                 <div className="space-y-3">
                                     <div className='flex items-center gap-x-2'>
                                         <img src={list} alt='list'></img>
-                                        <p>Release website and logo</p>
+                                        <p>Expand the ecosystem</p>
                                     </div>
                                     <div className='flex items-center gap-x-2'>
                                         <img src={list} alt='list'></img>
-                                        <p>Grow community</p>
+                                        <p>Integrate with mobile wallets</p>
                                     </div>
                                     <div className='flex items-center gap-x-2'>
                                         <img src={list} alt='list'></img>
-                                        <p>Launch the project</p>
+                                        <p>Launch charity initiatives</p>
                                     </div>
                                     <div className='flex items-center gap-x-2'>
                                         <img src={list} alt='list'></img>
-                                        <p>Social media setup</p>
+                                        <p>Sustain marketing efforts</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <p className='text-center font-semibold mt-6'>
+                    Please note that the roadmap provided is a condensed version, and the project may undertake additional activities and adjustments as necessary.
+                </p>
             </div>
 
             <Footer />
