@@ -21,7 +21,7 @@ export default function Footer() {
 
               <div className='font-semibold lg:leading-loose'>
                 <p>
-                  Daddy Cool Token is a decentralized community-driven project. Please conduct your own research and due diligence before investing in any cryptocurrency. Cryptocurrencies are subject to market risks, and their value may fluctuate. Daddy Cool Token is not affiliated with Johnny Bravo or its creators.
+                  Daddy Cool Token is a decentralized community-driven project. Please conduct your own research and due diligence before investing in any cryptocurrency. Cryptocurrencies are subject to market risks, and their value may fluctuate.
                 </p>
 
                 <p className='pt-2'>

@@ -55,11 +55,11 @@ export default function Home() {
                             </h2>
 
                             <p className='pt-6 pb-4 font-semibold'>
-                                Imagine a crypto memecoin project inspired by Johnny Bravo's "<strong>daddy cool</strong>" persona. This theme-based venture would embrace the essence of his iconic character, combining elements of charisma, confidence, and style with the exciting world of cryptocurrency.
+                                Daddy Cool Memecoin is an exciting and innovative crypto project that has taken the world by storm. Built on the foundations of humor and entertainment, Daddy Cool Memecoin combines the power of blockchain technology with the appeal of viral memes.
                             </p>
 
                             <p className='py-5 lg:leading-loose font-semibold'>
-                                The project would leverage Johnny Bravo's appeal to create a unique and engaging community around the memecoin, attracting crypto enthusiasts who appreciate humor, nostalgia, and a touch of retro coolness. With Johnny Bravo as the face of the project, his larger-than-life personality and self-assured charm would undoubtedly bring a wave of attention, turning the venture into a sensation within the crypto space. Join Daddy Cool and play your part as a community to ensure this memecoin becomes the new trend of the year.
+                                One of the standout features of this project is the unique way it rewards its holders. Daddy Cool, the charismatic and enigmatic figurehead of the project, generously distributes Ethereum (ETH) rewards to loyal investors. These rewards not only provide an additional incentive for holding Daddy Cool Memecoin but also create a sense of community and excitement among the project's supporters. By embracing the spirit of fun and laughter while also offering tangible benefits, Daddy Cool Memecoin is here to captured the attention and imagination of crypto enthusiasts worldwide.
                             </p>
 
                         </div>
@@ -133,7 +133,7 @@ export default function Home() {
                             </h2>
 
                             <p className='py-5 lg:leading-loose font-semibold'>
-                                At Daddy Cool Token, we believe in creating a vibrant and engaging community that appreciates humor, nostalgia, and the thrill of being part of something unique. By leveraging Johnny Bravo's appeal, we've crafted a memecoin project that captures the essence of his larger-than-life personality. Prepare to embark on a thrilling journey where laughter, excitement, and innovation collide.Join us on this incredible journey and become part of the Daddy Cool community. As a member, you'll have the power to shape the future of the project, participate in engaging events and competitions, and connect with like-minded individuals who appreciate the fusion of cryptocurrencies and retro charm
+                                At Daddy Cool Token, we believe in creating a vibrant and engaging community that appreciates humor, nostalgia, and the thrill of being part of something unique. We've crafted a memecoin project that captures the essence of his larger-than-life personality. Prepare to embark on a thrilling journey where laughter, excitement, and innovation collide.Join us on this incredible journey and become part of the Daddy Cool community. As a member, you'll have the power to shape the future of the project, participate in engaging events and competitions, and connect with like-minded individuals who appreciate the fusion of cryptocurrencies and retro charm.
                             </p>
 
                             <div className='flex items-center gap-x-8'>
