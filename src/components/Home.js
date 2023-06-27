@@ -27,7 +27,11 @@ export default function Home() {
 
             {/* top section */}
 
-            <div className="lg:px-20 px-5 bg-top relative z-20">
+            <div className='bg-blue-100 text-center py-4'>
+                <p className='lg:text-base text-sm text-white-100'>CA: 0xf6acbe46b4e408d0eb9454b124849b2f283ba461</p>
+            </div>
+
+            <div className="lg:px-20 px-5">
                 <div className='container mx-auto'>
 
                     <Menu />
@@ -85,7 +89,7 @@ export default function Home() {
                             <img src={token} alt="Logo" className='flex mx-auto' />
 
                             <p className='mt-6 font-semibold'>
-                                What sets Daddy Cool Token apart is its groundbreaking tax structure. We've eliminated the buy and sell tax, ensuring that our community members can transact without any additional fees. This means 0% buy tax and 0% sell tax, allowing you to maximize your investments and trading opportunities. Say goodbye to unnecessary fees and hello to a more profitable and seamless trading experience.
+                                With our updated tax structure, we introduce a 4% tax on both buy and sell transactions. This means that for every purchase or sale you make, 4% of the transaction value will be distributed as follows: 3% will be reflected in ETH, rewarding our holders, and 1% will be added to the Liquidity Pool, ensuring the stability and growth of Daddy Cool Token
                             </p>
                         </div>
 
@@ -98,9 +102,18 @@ export default function Home() {
 
                                 <div className='flex items-center justify-center gap-x-12'>
                                     <p className='lg:text-6xl text-3xl uppercase font-bolf font-junkdog  text-center'>Tax</p>
-
-                                    <p className='lg:text-6xl text-3xl font-junkdog text-center'>0/0</p>
+                                    <p className='lg:text-6xl text-3xl font-junkdog text-center'>4/4</p>
                                 </div>
+
+                                <ul className='flex items-center justify-center gap-x-12 list-disc'>
+                                    <li className='lg:text-4xl text-3xl uppercase font-bolf font-junkdog  text-center'>Eth Reflection</li>
+                                    <li className='lg:text-4xl text-3xl font-junkdog text-center'>3%</li>
+                                </ul>
+
+                                <ul className='flex items-center justify-center gap-x-12 list-disc'>
+                                    <li className='lg:text-4xl text-3xl uppercase font-bolf font-junkdog  text-center'>Liquidity Pool</li>
+                                    <li className='lg:text-4xl text-3xl font-junkdog text-center'>1%</li>
+                                </ul>
                             </div>
 
                             <div className='space-y-2 text-center'>
@@ -142,7 +155,7 @@ export default function Home() {
                                         Join Us
                                     </button>
                                 </a>
-                                <a href="/">
+                                <a href="https://www.dextools.io/app/en/ether/pair-explorer/0xa655fa94ff3e1b5eaa2a83069500e27e7ee91c64">
                                     <button className="border-2 border-blue-100 bg-yellow-100 hover:bg-blue-100 text-black-100 hover:text-white-100 rounded-lg py-2 lg:px-6 px-4 mt-5 font-semibold">
                                         Chart
                                     </button>
