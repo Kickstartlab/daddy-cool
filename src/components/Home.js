@@ -5,6 +5,7 @@ import chart from '../assets/chart.png';
 import top from '../assets/top.png';
 import about from '../assets/about.png';
 import token from '../assets/token.png';
+import bg_token from '../assets/bg_token.png';
 import community from '../assets/community.png';
 import list from '../assets/list.png';
 import Aos from 'aos';
@@ -63,8 +64,8 @@ export default function Home() {
 
                         </div>
 
-                        <div data-aos="zoom-in" className=" md:mt-0 mt-8">
-                            <img src={about} alt="Logo" className='w-10/12 lg:float-right sm:flex mx-auto' />
+                        <div data-aos="zoom-in" className="">
+                            <img src={about} alt="Logo" className='' />
                         </div>
 
                     </div>
@@ -79,8 +80,13 @@ export default function Home() {
                     <div className="lg:flex block justify-between items-center gap-x-16 lg:py-16">
 
 
-                        <div data-aos="zoom-in" className="">
-                            <img src={token} alt="Logo" className='' />
+                        <div data-aos="zoom-in" className="lg:w-1/2">
+                            <img src={bg_token} alt="Logo" className='lg:flex hidden mx-auto absolute' />
+                            <img src={token} alt="Logo" className='flex mx-auto' />
+
+                            <p className='mt-6 font-semibold'>
+                                What sets Daddy Cool Token apart is its groundbreaking tax structure. We've eliminated the buy and sell tax, ensuring that our community members can transact without any additional fees. This means 0% buy tax and 0% sell tax, allowing you to maximize your investments and trading opportunities. Say goodbye to unnecessary fees and hello to a more profitable and seamless trading experience.
+                            </p>
                         </div>
 
                         <div data-aos="fade-left" className="lg:w-1/2 w-full md:mt-0 mt-8 lg:space-y-20 space-y-8">
@@ -97,7 +103,7 @@ export default function Home() {
                                 </div>
                             </div>
 
-                            <div className='space-y-10 text-center'>
+                            <div className='space-y-2 text-center'>
                                 <h2 className='md:text-6xl text-3xl font-bold text-blue-100 tracking-wider font-junkdog'>
                                     Token Allocation
                                 </h2>
@@ -131,7 +137,7 @@ export default function Home() {
                             </p>
 
                             <div className='flex items-center gap-x-8'>
-                                <a href="/">
+                                <a href="https://t.me/daddycooltoken">
                                     <button className="border-2 border-blue-100 bg-blue-100 hover:bg-yellow-100 hover:text-black-100 rounded-lg py-2 lg:px-6 px-4 mt-5 font-semibold text-white-100">
                                         Join Us
                                     </button>
@@ -145,7 +151,7 @@ export default function Home() {
                         </div>
 
                         <div data-aos="zoom-in" className=" md:mt-0 mt-12">
-                            <img src={community} alt="Logo" className='w-10/12 lg:float-right sm:flex mx-auto' />
+                            <img src={community} alt="Logo" className='' />
                         </div>
 
                     </div>
@@ -197,19 +203,19 @@ export default function Home() {
                                 <div className="space-y-3">
                                     <div className='flex items-center gap-x-2'>
                                         <img src={list} alt='list'></img>
-                                        <p>Launch Daddy Cool Token</p>
+                                        <p>Form strategic partnerships</p>
                                     </div>
                                     <div className='flex items-center gap-x-2'>
                                         <img src={list} alt='list'></img>
-                                        <p>Build and engage the community</p>
+                                        <p>Expand the community</p>
                                     </div>
                                     <div className='flex items-center gap-x-2'>
                                         <img src={list} alt='list'></img>
-                                        <p>Execute marketing campaigns</p>
+                                        <p>Improve website and whitepaper</p>
                                     </div>
                                     <div className='flex items-center gap-x-2'>
                                         <img src={list} alt='list'></img>
-                                        <p>Secure exchange listings</p>
+                                        <p>Get listed on CoinGecko and CoinMarketCap</p>
                                     </div>
                                 </div>
                             </div>
@@ -237,19 +243,19 @@ export default function Home() {
                                 <div className="space-y-3">
                                     <div className='flex items-center gap-x-2'>
                                         <img src={list} alt='list'></img>
-                                        <p>Form strategic partnerships</p>
+                                        <p>Launch Daddy Cool Token</p>
                                     </div>
                                     <div className='flex items-center gap-x-2'>
                                         <img src={list} alt='list'></img>
-                                        <p>Expand the community</p>
+                                        <p>Build and engage the community</p>
                                     </div>
                                     <div className='flex items-center gap-x-2'>
                                         <img src={list} alt='list'></img>
-                                        <p>Improve website and whitepaper</p>
+                                        <p>Execute marketing campaigns</p>
                                     </div>
                                     <div className='flex items-center gap-x-2'>
                                         <img src={list} alt='list'></img>
-                                        <p>Get listed on CoinGecko and CoinMarketCap</p>
+                                        <p>Secure exchange listings</p>
                                     </div>
                                 </div>
                             </div>

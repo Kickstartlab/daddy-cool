@@ -23,7 +23,7 @@ export default function Menu() {
             <li><a href="#about" className="font-semibold">About</a></li>
             <li><a href="#tokenomics" className="font-semibold">Tokenomics</a></li>
             <li><a href="#roadmap" className="font-semibold">Roadmap</a></li>
-            <li><a href="/" className="font-semibold">Join us</a></li>
+            <li><a href="https://t.me/daddycooltoken" className="font-semibold">Join us</a></li>
           </ul>
         </nav>
 
@@ -69,7 +69,7 @@ export default function Menu() {
             <a href="#roadmap" className="text-lg ml-4 font-semibold font-junkdog tracking-wider">Roadmap</a>
           </button>
           <button onClick={() => setShow(!show)} className="w-full py-2.5 mt-3 flex items-center text-black-100">
-            <a href="/" className="text-lg ml-4 font-semibold font-junkdog tracking-wider">Join Us</a>
+            <a href="https://t.me/daddycooltoken" className="text-lg ml-4 font-semibold font-junkdog tracking-wider">Join Us</a>
           </button>
           <button onClick={() => setShow(!show)} className="w-full py-2.5 mt-3 flex items-center bg-blue-100 rounded-md">
             <a href="/" className="text-lg ml-4 font-semibold text-white-100 font-junkdog tracking-wider">Buy Now</a>

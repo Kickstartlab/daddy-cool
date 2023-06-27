@@ -2,6 +2,7 @@ import React from 'react'
 import twitter from '../assets/twitter.png';
 import telegram from '../assets/telegram.png';
 import footer from '../assets/footer.png';
+import logo_1 from '../assets/logo_1.png';
 
 
 
@@ -41,7 +42,7 @@ export default function Footer() {
               </div>
 
             </div>
-            <p className='py-6 '>© {new Date().getFullYear()} All rights reserved by Daddy Cool.</p>
+            <p className='py-6 '>© {new Date().getFullYear()} All rights reserved by <a href={logo_1} target='_blank' className='text-blue-100 hover:underline'>daddycooltoken.com</a></p>
           </div>
 
           <div data-aos="slide-up">
